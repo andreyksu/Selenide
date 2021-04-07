@@ -1,0 +1,19 @@
+package ru.andreyksu.annikonenkov.selenide.pagewidgets;
+
+
+import com.codeborne.selenide.*;
+
+import static com.codeborne.selenide.Selectors.*;
+import static com.codeborne.selenide.Selenide.*;
+
+public class SearchResultsTest {
+
+  // Elements
+  public ElementsCollection found = $$("#ires .g");
+
+  // Actions
+  public SelenideElement getResult(int index) {
+    return found.get(index);
+  }
+
+}

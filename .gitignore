@@ -1,0 +1,51 @@
+#folders
+**/target
+**/build
+**/.settings
+**/tools
+**/pdu
+**/.idea/
+**/out
+**/.idea_modules
+**/.allure
+
+
+# Mobile Tools for Java (J2ME)
+**/.mtj.tmp/
+
+# BlueJ files
+*.ctxt
+
+# Compiled class file
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Log file
+*.log
+
+#IDEA
+*.iml
+
+#Eclipse
+*.classpath
+*.project
+**/.settings
+**/.metadata
+
+# virtual machine crash logs
+hs_err_pid*
+
+*.iws
+**/bin
+
+#asm  
+*.tmp
+*.obj
+*.hex
